@@ -1,0 +1,26 @@
+spring:
+  # 配置数据源信息
+  datasource:
+    # 配置数据源信息
+    type: com.zaxxer.hikari.HikariDataSource
+    # 配置连接数据库的各个信息
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/trainee?serverTimezone=GMT%2B8&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+  devtools:
+    remote:
+      context-path: http://localhost:9527/dev-api/vue-element-admin
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+logging:
+  config: classpath:logback-spring.xml
+  file:
+    path: springboot.log
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

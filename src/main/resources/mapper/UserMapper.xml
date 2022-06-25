@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bosssoft.trainee.nontax.mapper.UserMapper">
+
+    <resultMap id="BaseResultMap" type="com.bosssoft.trainee.nontax.entity.po.User">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="name" column="name" jdbcType="VARCHAR"/>
+            <result property="password" column="password" jdbcType="VARCHAR"/>
+            <result property="profilePicture" column="profile_picture" jdbcType="VARCHAR"/>
+            <result property="sex" column="sex" jdbcType="TINYINT"/>
+            <result property="tel" column="tel" jdbcType="VARCHAR"/>
+            <result property="remark" column="remark" jdbcType="VARCHAR"/>
+            <result property="departmentId" column="department_id" jdbcType="BIGINT"/>
+            <result property="positionId" column="position_id" jdbcType="BIGINT"/>
+            <result property="companyId" column="company_id" jdbcType="BIGINT"/>
+            <result property="createdBy" column="created_by" jdbcType="BIGINT"/>
+            <result property="createdTime" column="created_time" jdbcType="TIMESTAMP"/>
+            <result property="updatedBy" column="updated_by" jdbcType="BIGINT"/>
+            <result property="updatedTime" column="updated_time" jdbcType="TIMESTAMP"/>
+            <result property="status" column="status" jdbcType="TINYINT"/>
+            <result property="version" column="version" jdbcType="BIGINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,name,password,
+        profile_picture,sex,tel,
+        remark,department_id,position_id,
+        company_id,created_by,created_time,
+        updated_by,updated_time,status,
+        version
+    </sql>
+    <select id="getRolesById" resultType="com.bosssoft.trainee.nontax.entity.po.Role">
+        select *
+        from basic_role br
+        where br.id in (
+            select bur.role_id
+            from basic_user_role bur
+            where bur.user_id = 1
+        )
+    </select>
+    <select id="login" resultType="com.bosssoft.trainee.nontax.entity.dto.UserDTO">
+        select * from basic_user
+        where #{username} = name and #{password} = password
+    </select>
+</mapper>
