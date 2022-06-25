@@ -1,0 +1,35 @@
+2022-06-23 08:57:51.650 [http-nio-8080-exec-2] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - java.lang.Integer cannot be cast to java.lang.Long
+2022-06-23 08:59:23.549 [http-nio-8080-exec-9] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - java.lang.Integer cannot be cast to java.lang.Long
+2022-06-23 09:06:35.348 [main] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - java.lang.String cannot be cast to java.lang.Long
+2022-06-23 09:08:27.460 [main] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - java.lang.String cannot be cast to java.lang.Long
+2022-06-23 09:11:48.313 [http-nio-8080-exec-2] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - java.lang.Long cannot be cast to java.lang.String
+2022-06-23 09:44:02.372 [main] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - java.lang.String cannot be cast to java.lang.Long
+2022-06-23 09:50:29.760 [main] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - java.lang.String cannot be cast to java.lang.Long
+2022-06-23 10:08:33.808 [main] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - One record is expected, but the query result is multiple records
+2022-06-23 10:13:34.871 [main] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - java.lang.String cannot be cast to java.lang.Long
+2022-06-23 10:39:29.400 [main] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - java.lang.String cannot be cast to java.lang.Long
+2022-06-23 10:41:31.627 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userService in com.bosssoft.trainee.nontax.controller.SystemController required a bean of type 'com.bosssoft.trainee.nontax.service.UserService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.bosssoft.trainee.nontax.service.UserService' in your configuration.
+
+2022-06-23 11:43:49.174 [main] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request parameter 'token' for method parameter type String is not present
+2022-06-23 11:46:39.466 [main] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request parameter 'token' for method parameter type String is not present
+2022-06-23 11:57:39.173 [main] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request parameter 'token' for method parameter type String is not present
+2022-06-23 12:00:24.556 [main] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request parameter 'token' for method parameter type String is not present
+2022-06-23 12:02:47.745 [main] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request parameter 'token' for method parameter type String is not present
+2022-06-23 12:07:11.989 [main] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request parameter 'token' for method parameter type String is not present
+2022-06-23 12:08:26.604 [main] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request parameter 'token' for method parameter type String is not present

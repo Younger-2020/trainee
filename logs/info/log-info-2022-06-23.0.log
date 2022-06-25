@@ -1,0 +1,1280 @@
+2022-06-23 09:03:46.531 [http-nio-8080-exec-7] INFO  c.b.trainee.nontax.controller.RoleTableController - 添加角色:角色名：管理员test，公司名称：公司1，角色备注：公司2的admin
+2022-06-23 09:04:27.543 [http-nio-8080-exec-8] INFO  c.b.trainee.nontax.controller.RoleTableController - 修改角色:角色id:1539776192197505026，角色名：宿管2，公司名称：公司2，角色备注：宿管2
+2022-06-23 09:06:31.222 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - Starting RoleControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 5268 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:06:31.223 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:06:34.225 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:06:34.824 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:06:34.828 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:06:34.829 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 09:06:34.844 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:06:34.873 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:06:34.899 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:06:34.921 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - Started RoleControllerTest in 4.147 seconds (JVM running for 5.211)
+2022-06-23 09:08:20.424 [Thread-47] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2022-06-23 09:08:20.428 [Thread-47] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2022-06-23 09:08:20.758 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:08:20.759 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:08:21.203 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 09:08:21.206 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 09:08:21.206 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 09:08:21.206 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 09:08:21.206 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 09:08:21.206 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 09:08:21.207 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:08:21.207 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 09:08:21.207 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 09:08:21.235 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 09:08:21.235 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 474 ms
+2022-06-23 09:08:21.917 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - Starting RoleControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 16368 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:08:21.919 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:08:21.945 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:08:21.985 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 09:08:22.061 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:08:22.063 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 09:08:22.063 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:08:22.064 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:08:22.071 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:08:22.076 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 1.381 seconds (JVM running for 44008.566)
+2022-06-23 09:08:22.078 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 09:08:24.169 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:08:24.169 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:08:24.438 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 09:08:24.439 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 09:08:24.439 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 09:08:24.439 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 09:08:24.439 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 09:08:24.439 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 09:08:24.439 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:08:24.439 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 09:08:24.439 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 09:08:24.459 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 09:08:24.459 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 288 ms
+2022-06-23 09:08:25.483 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:08:25.596 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 09:08:25.689 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:08:25.693 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 09:08:25.694 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:08:25.695 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:08:25.706 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:08:25.713 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 1.567 seconds (JVM running for 44012.202)
+2022-06-23 09:08:25.714 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 09:08:25.817 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:08:26.725 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:08:26.731 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:08:26.732 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 09:08:26.759 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:08:26.793 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:08:26.842 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:08:26.869 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - Started RoleControllerTest in 5.464 seconds (JVM running for 6.663)
+2022-06-23 09:09:16.662 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:09:16.663 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:09:17.356 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 09:09:17.357 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 09:09:17.357 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 09:09:17.357 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 09:09:17.357 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 09:09:17.357 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 09:09:17.358 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:09:17.358 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 09:09:17.359 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 09:09:17.409 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 09:09:17.409 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 744 ms
+2022-06-23 09:09:18.401 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:09:18.467 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 09:09:18.541 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:09:18.544 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 09:09:18.544 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:09:18.545 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:09:18.553 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:09:18.560 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 1.95 seconds (JVM running for 44065.049)
+2022-06-23 09:09:18.562 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 09:09:18.732 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - Starting RoleControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 18908 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:09:18.733 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:09:20.718 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:09:20.719 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:09:21.208 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 09:09:21.208 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 09:09:21.208 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 09:09:21.208 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 09:09:21.208 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 09:09:21.208 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 09:09:21.209 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:09:21.209 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 09:09:21.209 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 09:09:21.237 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 09:09:21.237 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 515 ms
+2022-06-23 09:09:21.935 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:09:21.968 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 09:09:22.011 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:09:22.014 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 09:09:22.014 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:09:22.015 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:09:22.019 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:09:22.023 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 1.351 seconds (JVM running for 44068.513)
+2022-06-23 09:09:22.025 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 09:09:22.998 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:09:23.823 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:09:23.827 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:09:23.828 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 09:09:23.851 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:09:23.883 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:09:23.933 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:09:23.957 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - Started RoleControllerTest in 5.961 seconds (JVM running for 7.704)
+2022-06-23 09:09:24.474 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 修改角色:角色id:1539625086133809153，角色名：管理员_test，公司名称：公司2，角色备注：null
+2022-06-23 09:09:24.537 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 09:09:24.816 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 09:09:25.119 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 09:09:25.136 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 09:11:48.307 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-23 09:11:48.309 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-23 09:11:48.310 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-06-23 09:12:21.526 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - Starting RoleControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 4916 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:12:21.527 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:12:24.463 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:12:25.091 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:12:25.092 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:12:25.093 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 09:12:25.115 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:12:25.135 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:12:25.171 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:12:25.189 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - Started RoleControllerTest in 4.086 seconds (JVM running for 5.132)
+2022-06-23 09:12:25.559 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 删除角色：角色id：1539776192197505026
+2022-06-23 09:12:25.596 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 09:12:25.788 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 09:12:25.928 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 09:12:25.938 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 09:23:00.110 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - Starting RoleControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 5316 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:23:00.112 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:23:02.933 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:23:03.550 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:23:03.550 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:23:03.560 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 10 ms
+2022-06-23 09:23:03.579 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:23:03.597 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:23:03.624 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:23:03.651 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - Started RoleControllerTest in 3.966 seconds (JVM running for 5.025)
+2022-06-23 09:23:03.928 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 角色查询：{page=1, limit=20, sort=+id, role_name=e}
+2022-06-23 09:23:03.939 [main] INFO  c.b.trainee.nontax.service.impl.RoleServiceImpl - 传递过来的参数{page=1, limit=20, sort=+id, role_name=e}
+2022-06-23 09:23:04.084 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 09:23:04.273 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 09:23:04.580 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 09:23:04.594 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 09:29:01.618 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:29:01.618 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:29:01.920 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 09:29:01.920 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 09:29:01.920 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 09:29:01.920 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 09:29:01.920 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 09:29:01.921 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 09:29:01.921 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:29:01.921 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 09:29:01.921 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 09:29:01.951 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 09:29:01.951 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 333 ms
+2022-06-23 09:29:02.597 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:29:02.631 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 09:29:02.680 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:29:02.682 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 09:29:02.682 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:29:02.683 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:29:02.690 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:29:02.694 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 1.096 seconds (JVM running for 45249.183)
+2022-06-23 09:29:02.695 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 09:29:03.900 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - Starting RoleControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 11984 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:29:03.900 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:29:04.621 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:29:04.622 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:29:04.897 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 09:29:04.901 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 09:29:04.901 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 09:29:04.901 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 09:29:04.901 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 09:29:04.901 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 09:29:04.901 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:29:04.901 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 09:29:04.901 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 09:29:04.922 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 09:29:04.922 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 297 ms
+2022-06-23 09:29:05.546 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:29:05.582 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 09:29:05.642 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:29:05.644 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 09:29:05.645 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:29:05.646 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:29:05.651 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:29:05.656 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 1.068 seconds (JVM running for 45252.145)
+2022-06-23 09:29:05.658 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 09:29:07.009 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:29:07.648 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:29:07.648 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:29:07.653 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 09:29:07.670 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:29:07.691 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:29:07.729 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:29:07.749 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - Started RoleControllerTest in 4.271 seconds (JVM running for 5.28)
+2022-06-23 09:29:08.142 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 修改角色:{role_name=管理员_test, role_company=公司2, id=1539625076133809153}
+2022-06-23 09:29:08.174 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 09:29:08.363 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 09:29:08.680 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 09:29:08.694 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 09:29:23.111 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - Starting RoleControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8084 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:29:23.112 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:29:26.818 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:29:27.619 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:29:27.624 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:29:27.625 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 09:29:27.650 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:29:27.665 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:29:27.700 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:29:27.739 [main] INFO  c.b.trainee.juitTest.controller.RoleControllerTest - Started RoleControllerTest in 5.081 seconds (JVM running for 6.235)
+2022-06-23 09:29:28.214 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 修改角色:{role_name=管理员_test, role_company=公司2, id=1539625076133809153}
+2022-06-23 09:29:28.252 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 09:29:28.532 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 09:29:28.782 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 09:29:28.796 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 09:32:54.365 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Starting SubsysTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 9968 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:32:54.366 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:32:57.640 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:32:58.302 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:32:58.305 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:32:58.306 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 09:32:58.323 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:32:58.349 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:32:58.388 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:32:58.415 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Started SubsysTableControllerTest in 4.502 seconds (JVM running for 5.528)
+2022-06-23 09:32:58.720 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统查询：{page=1, limit=20, sort=+id}
+2022-06-23 09:32:58.883 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 09:32:59.099 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 09:32:59.432 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 09:32:59.446 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 09:33:50.347 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Starting SubsysTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 848 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:33:50.348 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:33:54.019 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:33:55.132 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:33:55.133 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:33:55.134 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 09:33:55.165 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:33:55.200 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:33:55.259 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:33:55.290 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Started SubsysTableControllerTest in 5.411 seconds (JVM running for 6.503)
+2022-06-23 09:33:55.712 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 角色查询：{page=1, limit=20, sort=+id, subsys_name=s, subsys_remark=子}
+2022-06-23 09:33:55.724 [main] INFO  c.b.trainee.nontax.service.impl.RoleServiceImpl - 传递过来的参数{page=1, limit=20, sort=+id, subsys_name=s, subsys_remark=子}
+2022-06-23 09:33:56.025 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 09:33:56.318 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 09:33:56.711 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 09:33:56.726 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 09:37:34.548 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Starting SubsysTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8876 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:37:34.550 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:37:39.469 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:37:40.488 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:37:40.489 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:37:40.491 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2022-06-23 09:37:40.533 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:37:40.570 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:37:40.618 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:37:40.675 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Started SubsysTableControllerTest in 6.617 seconds (JVM running for 7.655)
+2022-06-23 09:37:41.197 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统查询：{page=1, limit=20, sort=+id, subsys_name=s, subsys_remark=子}
+2022-06-23 09:37:41.500 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 09:37:41.853 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 09:37:42.364 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 09:37:42.379 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 09:39:08.701 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Starting SubsysTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 11312 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:39:08.702 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:39:12.330 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:39:13.368 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:39:13.368 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:39:13.372 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 4 ms
+2022-06-23 09:39:13.406 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:39:13.434 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:39:13.496 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:39:13.537 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Started SubsysTableControllerTest in 5.261 seconds (JVM running for 6.292)
+2022-06-23 09:39:14.342 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 09:39:14.620 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 09:39:14.896 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 09:39:14.915 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 09:41:03.780 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Starting SubsysTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 5792 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:41:03.781 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:41:06.792 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:41:07.692 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:41:07.693 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:41:07.693 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2022-06-23 09:41:07.714 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:41:07.752 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:41:07.791 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:41:07.825 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Started SubsysTableControllerTest in 4.467 seconds (JVM running for 5.447)
+2022-06-23 09:41:08.534 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 09:41:08.818 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 09:41:09.096 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 09:41:09.115 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 09:43:58.253 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Starting SubsysTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 16992 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:43:58.255 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:44:01.197 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:44:01.850 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:44:01.851 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:44:01.853 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2022-06-23 09:44:01.877 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:44:01.903 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:44:01.940 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:44:01.961 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Started SubsysTableControllerTest in 4.156 seconds (JVM running for 5.131)
+2022-06-23 09:44:02.352 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统修改：{subsys_image_url=123456, id=1539396540949901313, subsys_link=/view/subsys_test}
+2022-06-23 09:45:07.857 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:45:07.857 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:45:08.269 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 09:45:08.269 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 09:45:08.269 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 09:45:08.269 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 09:45:08.270 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 09:45:08.270 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 09:45:08.270 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:45:08.270 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 09:45:08.270 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 09:45:08.296 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 09:45:08.296 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 437 ms
+2022-06-23 09:45:09.051 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:45:09.078 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 09:45:09.124 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:45:09.128 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 09:45:09.128 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:45:09.129 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:45:09.134 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:45:09.138 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 1.316 seconds (JVM running for 46215.627)
+2022-06-23 09:45:09.139 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 09:45:09.625 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Starting SubsysTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 12500 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:45:09.632 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:45:11.166 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:45:11.167 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:45:11.498 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 09:45:11.498 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 09:45:11.498 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 09:45:11.498 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 09:45:11.499 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 09:45:11.499 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 09:45:11.499 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:45:11.499 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 09:45:11.499 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 09:45:11.519 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 09:45:11.519 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 351 ms
+2022-06-23 09:45:12.046 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:45:12.081 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 09:45:12.142 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:45:12.143 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 09:45:12.144 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:45:12.145 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:45:12.150 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:45:12.154 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 1.023 seconds (JVM running for 46218.643)
+2022-06-23 09:45:12.156 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 09:45:12.882 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:45:13.620 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:45:13.635 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:45:13.637 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2022-06-23 09:45:13.663 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:45:13.696 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:45:13.749 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:45:13.776 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Started SubsysTableControllerTest in 4.582 seconds (JVM running for 5.787)
+2022-06-23 09:45:14.270 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统修改：{subsys_image_url=123456, id=1539396540949901313, subsys_link=/view/subsys_test}
+2022-06-23 09:45:14.353 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 09:45:14.637 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 09:45:14.859 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 09:45:14.877 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 09:46:17.501 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Starting SubsysTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 12748 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:46:17.503 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:46:20.375 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:46:20.934 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:46:20.934 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:46:20.935 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 09:46:20.952 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:46:20.972 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:46:21.003 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:46:21.026 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Started SubsysTableControllerTest in 3.925 seconds (JVM running for 4.911)
+2022-06-23 09:46:21.437 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统修改：{subsys_image_url=123456, id=1539396540949901313, subsys_link=/view/subsys_test}
+2022-06-23 09:46:21.512 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 09:46:21.698 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 09:46:21.859 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 09:46:21.870 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 09:49:05.261 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Starting SubsysTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 4760 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:49:05.261 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:49:08.520 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:49:09.299 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:49:09.306 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:49:09.307 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 09:49:09.324 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:49:09.346 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:49:09.371 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:49:09.396 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Started SubsysTableControllerTest in 4.601 seconds (JVM running for 5.67)
+2022-06-23 09:49:10.037 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统修改：{subsys_image_url=123456, id=1539396540940901313, subsys_link=/view/subsys_test}
+2022-06-23 09:49:10.108 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 09:49:10.296 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 09:49:10.432 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 09:49:10.443 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 09:50:25.157 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Starting SubsysTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 1532 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:50:25.158 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:50:28.155 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:50:28.743 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:50:28.743 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:50:28.744 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 09:50:28.756 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:50:28.778 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:50:28.817 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:50:28.843 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Started SubsysTableControllerTest in 4.095 seconds (JVM running for 5.092)
+2022-06-23 09:50:29.112 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统查询：{page=1, limit=20, sort=+id, subsys_name=s, subsys_remark=子}
+2022-06-23 09:50:29.253 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 09:50:29.424 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 09:50:29.738 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统修改：{subsys_image_url=123456, id=1539396540949901313, subsys_link=/view/subsys_test}
+2022-06-23 09:50:29.756 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统删除：{id=1539396540949901314}
+2022-06-23 09:50:29.807 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统查询：{page=1, limit=20, sort=+id}
+2022-06-23 09:50:29.825 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统修改：{subsys_image_url=123456, id=1539396540940901313, subsys_link=/view/subsys_test}
+2022-06-23 09:50:29.844 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 09:50:29.854 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 09:51:32.685 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:51:32.685 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:51:33.118 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 09:51:33.118 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 09:51:33.118 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 09:51:33.118 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 09:51:33.119 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 09:51:33.119 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 09:51:33.119 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:51:33.120 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 09:51:33.120 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 09:51:33.149 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 09:51:33.150 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 463 ms
+2022-06-23 09:51:34.079 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:51:34.134 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 09:51:34.196 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:51:34.199 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 09:51:34.199 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:51:34.200 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:51:34.206 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:51:34.211 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 1.553 seconds (JVM running for 46600.7)
+2022-06-23 09:51:34.213 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 09:51:35.027 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Starting SubsysTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 9272 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:51:35.029 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:51:36.362 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:51:36.362 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:51:36.791 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 09:51:36.791 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 09:51:36.791 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 09:51:36.791 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 09:51:36.791 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 09:51:36.792 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 09:51:36.792 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:51:36.792 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 09:51:36.792 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 09:51:36.827 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 09:51:36.827 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 463 ms
+2022-06-23 09:51:37.749 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:51:37.809 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 09:51:37.861 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 09:51:37.863 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 09:51:37.863 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:51:37.864 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:51:37.869 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:51:37.873 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 1.555 seconds (JVM running for 46604.363)
+2022-06-23 09:51:37.875 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 09:51:39.582 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:51:40.478 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:51:40.478 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:51:40.480 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 09:51:40.506 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:51:40.539 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:51:40.590 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:51:40.621 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Started SubsysTableControllerTest in 6.252 seconds (JVM running for 7.745)
+2022-06-23 09:51:41.220 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统删除：{id=1539396540949901314}
+2022-06-23 09:51:41.288 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 09:51:41.572 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 09:51:41.791 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 09:51:41.816 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 09:52:02.332 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Starting SubsysTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 2468 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:52:02.333 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:52:06.904 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:52:07.839 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:52:07.839 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:52:07.841 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 09:52:07.873 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:52:07.912 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:52:07.968 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:52:08.005 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Started SubsysTableControllerTest in 6.132 seconds (JVM running for 7.19)
+2022-06-23 09:52:08.587 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统删除：{id=1539396540949901314}
+2022-06-23 09:52:08.647 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 09:52:08.912 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 09:52:09.154 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 09:52:09.170 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 09:52:59.886 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Starting SubsysTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 16452 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:52:59.887 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:53:02.840 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:53:03.441 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:53:03.441 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:53:03.441 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2022-06-23 09:53:03.457 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:53:03.472 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:53:03.515 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:53:03.540 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Started SubsysTableControllerTest in 4.099 seconds (JVM running for 5.081)
+2022-06-23 09:53:03.939 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统删除：{id=1539396540949901314}
+2022-06-23 09:53:03.974 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 09:53:04.148 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 09:53:04.295 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 09:53:04.308 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 09:56:37.491 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Starting ResourceTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 19252 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:56:37.492 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:56:40.527 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:56:41.229 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:56:41.230 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:56:41.231 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 09:56:41.254 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:56:41.274 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:56:41.324 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:56:41.350 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Started ResourceTableControllerTest in 4.593 seconds (JVM running for 5.661)
+2022-06-23 09:56:41.729 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id}
+2022-06-23 09:56:41.924 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 09:56:42.193 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 09:56:42.679 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 09:56:42.696 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 09:56:52.948 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Starting ResourceTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 12588 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 09:56:52.948 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 09:56:57.257 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 09:56:58.147 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 09:56:58.147 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 09:56:58.148 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 09:56:58.172 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 09:56:58.211 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 09:56:58.257 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 09:56:58.284 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Started ResourceTableControllerTest in 5.989 seconds (JVM running for 7.568)
+2022-06-23 09:56:58.695 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id, resource_name=add}
+2022-06-23 09:56:58.890 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 09:56:59.138 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 09:56:59.555 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 09:56:59.569 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 10:03:40.723 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:03:40.725 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:03:41.092 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 10:03:41.092 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 10:03:41.092 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 10:03:41.092 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 10:03:41.092 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 10:03:41.092 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 10:03:41.092 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:03:41.092 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 10:03:41.092 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 10:03:41.114 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 10:03:41.114 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 388 ms
+2022-06-23 10:03:41.916 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:03:41.959 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 10:03:42.005 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:03:42.007 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 10:03:42.008 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:03:42.008 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:03:42.012 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:03:42.015 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 1.317 seconds (JVM running for 47328.504)
+2022-06-23 10:03:42.017 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 10:03:42.585 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Starting ResourceTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 6388 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:03:42.585 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:03:45.736 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:03:46.404 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 10:03:46.404 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 10:03:46.406 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2022-06-23 10:03:46.425 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:03:46.443 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:03:46.491 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:03:46.512 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Started ResourceTableControllerTest in 4.346 seconds (JVM running for 5.581)
+2022-06-23 10:03:46.947 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-23 10:03:47.030 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 10:03:47.229 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 10:03:47.407 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 10:03:47.420 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 10:07:20.694 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:07:20.698 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:07:21.004 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 10:07:21.004 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 10:07:21.004 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 10:07:21.004 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 10:07:21.005 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 10:07:21.005 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 10:07:21.005 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:07:21.005 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 10:07:21.005 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 10:07:21.031 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 10:07:21.031 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 332 ms
+2022-06-23 10:07:21.573 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:07:21.603 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 10:07:21.649 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:07:21.651 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 10:07:21.651 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:07:21.652 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:07:21.657 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:07:21.661 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 0.988 seconds (JVM running for 47548.15)
+2022-06-23 10:07:21.662 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 10:07:23.692 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Starting ResourceTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 18848 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:07:23.692 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:07:23.724 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:07:23.724 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:07:24.067 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 10:07:24.067 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 10:07:24.067 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 10:07:24.067 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 10:07:24.067 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 10:07:24.067 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 10:07:24.068 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:07:24.068 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 10:07:24.068 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 10:07:24.098 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 10:07:24.098 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 372 ms
+2022-06-23 10:07:24.726 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:07:24.757 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 10:07:24.801 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:07:24.811 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 10:07:24.813 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:07:24.813 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:07:24.817 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:07:24.819 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 1.123 seconds (JVM running for 47551.309)
+2022-06-23 10:07:24.820 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 10:07:26.759 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:07:27.336 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 10:07:27.336 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 10:07:27.337 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 10:07:27.357 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:07:27.394 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:07:27.432 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:07:27.453 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Started ResourceTableControllerTest in 4.328 seconds (JVM running for 5.277)
+2022-06-23 10:07:27.813 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-23 10:07:27.897 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 10:07:28.079 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 10:07:28.251 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 10:07:28.262 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 10:08:27.521 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:08:27.521 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:08:27.912 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 10:08:27.912 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 10:08:27.912 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 10:08:27.913 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 10:08:27.913 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 10:08:27.913 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 10:08:27.913 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:08:27.913 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 10:08:27.913 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 10:08:27.939 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 10:08:27.939 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 416 ms
+2022-06-23 10:08:28.617 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:08:28.659 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 10:08:28.694 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:08:28.703 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 10:08:28.704 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:08:28.704 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:08:28.710 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:08:28.714 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 1.222 seconds (JVM running for 47615.204)
+2022-06-23 10:08:28.716 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 10:08:29.226 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Starting ResourceTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 2708 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:08:29.226 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:08:30.674 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:08:30.674 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:08:30.973 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 10:08:30.973 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 10:08:30.974 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 10:08:30.974 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 10:08:30.974 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 10:08:30.974 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 10:08:30.974 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:08:30.974 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 10:08:30.974 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 10:08:30.992 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 10:08:30.992 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 316 ms
+2022-06-23 10:08:31.524 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:08:31.550 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 10:08:31.586 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:08:31.588 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 10:08:31.589 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:08:31.589 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:08:31.593 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:08:31.596 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 0.951 seconds (JVM running for 47618.086)
+2022-06-23 10:08:31.599 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 10:08:32.363 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:08:32.977 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 10:08:32.981 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 10:08:32.982 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 10:08:33.000 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:08:33.019 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:08:33.054 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:08:33.073 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Started ResourceTableControllerTest in 4.26 seconds (JVM running for 5.388)
+2022-06-23 10:08:33.443 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-23 10:08:33.531 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 10:08:33.741 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 10:08:33.928 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 10:08:33.939 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 10:09:19.128 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Starting ResourceTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 16780 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:09:19.129 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:09:22.077 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:09:22.674 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 10:09:22.674 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 10:09:22.675 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 10:09:22.686 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:09:22.708 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:09:22.729 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:09:22.756 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Started ResourceTableControllerTest in 4.078 seconds (JVM running for 5.043)
+2022-06-23 10:09:23.099 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-23 10:09:23.198 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 10:09:23.375 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 10:09:23.549 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 10:09:23.560 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 10:10:32.800 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Starting ResourceTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 7532 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:10:32.802 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:10:35.900 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:10:36.528 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 10:10:36.528 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 10:10:36.538 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 10 ms
+2022-06-23 10:10:36.562 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:10:36.585 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:10:36.615 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:10:36.640 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Started ResourceTableControllerTest in 4.273 seconds (JVM running for 5.266)
+2022-06-23 10:10:36.995 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, id=1539792221137014785, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-23 10:10:37.062 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 10:10:37.257 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 10:10:37.394 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 10:10:37.406 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 10:12:02.016 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Starting ResourceTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 10440 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:12:02.016 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:12:04.994 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:12:05.561 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 10:12:05.568 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 10:12:05.569 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 10:12:05.589 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:12:05.610 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:12:05.657 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:12:05.680 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Started ResourceTableControllerTest in 4.108 seconds (JVM running for 5.117)
+2022-06-23 10:12:06.077 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, id=1539792221137074785, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-23 10:12:06.149 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 10:12:06.354 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 10:12:06.500 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 10:12:06.510 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 10:13:30.926 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Starting ResourceTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 18560 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:13:30.927 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:13:33.795 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:13:34.394 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 10:13:34.394 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 10:13:34.396 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2022-06-23 10:13:34.418 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:13:34.439 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:13:34.477 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:13:34.497 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Started ResourceTableControllerTest in 4.006 seconds (JVM running for 4.992)
+2022-06-23 10:13:34.863 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源删除：{id=1539792221137014786}
+2022-06-23 10:14:14.206 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:14:14.206 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:14:14.614 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 10:14:14.614 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 10:14:14.614 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 10:14:14.614 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 10:14:14.614 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 10:14:14.615 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 10:14:14.615 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:14:14.615 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 10:14:14.615 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 10:14:14.640 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 10:14:14.640 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 432 ms
+2022-06-23 10:14:14.734 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Starting ResourceTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8556 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:14:14.734 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:14:15.508 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:14:15.591 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 10:14:15.696 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:14:15.696 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 10:14:15.696 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:14:15.696 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:14:15.712 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:14:15.727 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 1.554 seconds (JVM running for 47962.217)
+2022-06-23 10:14:15.730 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 10:14:18.859 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:14:19.632 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 10:14:19.633 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 10:14:19.634 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 10:14:19.656 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:14:19.679 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:14:19.720 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:14:19.756 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Started ResourceTableControllerTest in 5.501 seconds (JVM running for 6.657)
+2022-06-23 10:14:20.257 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源删除：{id=1539792221137014786}
+2022-06-23 10:14:20.304 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 10:14:20.553 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 10:14:20.751 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 10:14:20.768 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 10:20:22.080 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Starting UserManagementControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 11372 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:20:22.083 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:20:25.414 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:20:26.055 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 10:20:26.065 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 10:20:26.066 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 10:20:26.083 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:20:26.113 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:20:26.145 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:20:26.174 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Started UserManagementControllerTest in 4.527 seconds (JVM running for 5.615)
+2022-06-23 10:20:26.516 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户查询：{page=1, limit=20, sort=+id}
+2022-06-23 10:20:26.718 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 10:20:27.002 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 10:20:27.403 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 10:20:27.420 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 10:20:36.709 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Starting UserManagementControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 13924 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:20:36.712 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:20:40.830 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:20:41.715 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 10:20:41.716 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 10:20:41.716 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2022-06-23 10:20:41.753 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:20:41.797 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:20:41.860 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:20:41.900 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Started UserManagementControllerTest in 5.807 seconds (JVM running for 7.582)
+2022-06-23 10:20:42.355 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户查询：{page=1, limit=20, sort=+id, user_name=ad, phone_num=123}
+2022-06-23 10:20:42.581 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 10:20:42.871 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 10:20:43.318 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 10:20:43.331 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 10:36:33.808 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:36:33.808 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:36:34.111 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 10:36:34.111 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 10:36:34.111 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 10:36:34.111 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 10:36:34.111 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 10:36:34.111 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 10:36:34.112 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:36:34.112 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 10:36:34.112 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 10:36:34.130 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 10:36:34.130 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 320 ms
+2022-06-23 10:36:34.840 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:36:34.882 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 10:36:34.957 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:36:34.959 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 10:36:34.960 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:36:34.961 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:36:34.967 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:36:34.972 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 1.188 seconds (JVM running for 49301.461)
+2022-06-23 10:36:34.974 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 10:36:36.342 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Starting UserManagementControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 14436 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:36:36.343 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:36:36.952 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:36:36.952 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:36:37.285 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 10:36:37.285 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 10:36:37.285 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 10:36:37.285 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 10:36:37.285 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 10:36:37.286 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 10:36:37.286 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:36:37.286 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 10:36:37.286 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 10:36:37.306 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 10:36:37.306 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 351 ms
+2022-06-23 10:36:37.916 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:36:37.950 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 10:36:37.997 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:36:37.998 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 10:36:37.999 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:36:38.000 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:36:38.005 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:36:38.010 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 1.085 seconds (JVM running for 49304.499)
+2022-06-23 10:36:38.012 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 10:36:39.566 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:36:40.187 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 10:36:40.187 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 10:36:40.188 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 10:36:40.206 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:36:40.230 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:36:40.261 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:36:40.282 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Started UserManagementControllerTest in 4.36 seconds (JVM running for 5.479)
+2022-06-23 10:36:40.654 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户创建：{password=123456, user_name=user_createUserNotExist, sex=男, phone_num=15555589800}
+2022-06-23 10:36:40.751 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 10:36:40.919 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 10:36:41.092 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 10:36:41.103 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 10:37:31.258 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Starting UserManagementControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 12596 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:37:31.260 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:37:34.598 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:37:35.192 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 10:37:35.193 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 10:37:35.193 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2022-06-23 10:37:35.214 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:37:35.236 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:37:35.267 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:37:35.289 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Started UserManagementControllerTest in 4.461 seconds (JVM running for 5.467)
+2022-06-23 10:37:35.697 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户创建：{password=123456, user_name=user_createUserNotExist, sex=男, phone_num=15555589800}
+2022-06-23 10:37:35.796 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 10:37:35.996 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 10:37:36.190 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 10:37:36.202 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 10:39:25.361 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Starting UserManagementControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 16132 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:39:25.362 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:39:28.305 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:39:28.895 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 10:39:28.896 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 10:39:28.898 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2022-06-23 10:39:28.918 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:39:28.942 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:39:28.981 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:39:29.001 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Started UserManagementControllerTest in 4.1 seconds (JVM running for 5.152)
+2022-06-23 10:39:29.381 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户修改：{password=123456, user_name=user_createUserNotExist, sex=男, phone_num=15555589800, id=1539799573135360003}
+2022-06-23 10:41:30.814 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:41:30.814 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:41:31.137 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 10:41:31.137 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 10:41:31.137 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 10:41:31.137 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 10:41:31.137 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 10:41:31.138 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 10:41:31.138 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:41:31.138 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 10:41:31.138 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 10:41:31.158 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 10:41:31.158 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 341 ms
+2022-06-23 10:41:31.597 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-23 10:41:31.603 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-23 10:41:33.123 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:41:33.124 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:41:33.470 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 10:41:33.470 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 10:41:33.470 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 10:41:33.470 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 10:41:33.470 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 10:41:33.470 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 10:41:33.470 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:41:33.470 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 10:41:33.470 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 10:41:33.490 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 10:41:33.490 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 365 ms
+2022-06-23 10:41:34.154 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Starting UserManagementControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 19768 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:41:34.154 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:41:34.171 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:41:34.203 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 10:41:34.246 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:41:34.247 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 10:41:34.247 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:41:34.248 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:41:34.256 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:41:34.261 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 1.179 seconds (JVM running for 49600.751)
+2022-06-23 10:41:34.265 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 10:41:37.689 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:41:38.541 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 10:41:38.542 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 10:41:38.544 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2022-06-23 10:41:38.568 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:41:38.599 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:41:38.647 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:41:38.675 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Started UserManagementControllerTest in 5.033 seconds (JVM running for 6.157)
+2022-06-23 10:41:39.215 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户修改：{password=123456, user_name=user_update, sex=男, phone_num=15555589800, id=1539799573135360003}
+2022-06-23 10:41:39.309 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 10:41:39.561 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 10:41:39.760 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 10:41:39.773 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 10:42:05.551 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Starting UserManagementControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 19784 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:42:05.552 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:42:09.571 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:42:10.386 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 10:42:10.386 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 10:42:10.387 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 10:42:10.417 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:42:10.452 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:42:10.494 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:42:10.519 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Started UserManagementControllerTest in 5.489 seconds (JVM running for 6.577)
+2022-06-23 10:42:11.041 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户修改：{password=123456, user_name=user_update, sex=男, phone_num=15555589800, id=1539799573545360003}
+2022-06-23 10:42:11.136 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 10:42:11.389 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 10:42:11.603 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 10:42:11.617 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 10:46:33.038 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:46:33.038 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:46:33.324 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 10:46:33.324 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 10:46:33.325 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 10:46:33.325 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 10:46:33.325 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 10:46:33.325 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 10:46:33.325 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:46:33.325 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 10:46:33.326 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 10:46:33.346 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 10:46:33.346 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 306 ms
+2022-06-23 10:46:33.923 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:46:33.963 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 10:46:34.015 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 10:46:34.018 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 10:46:34.018 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:46:34.018 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:46:34.024 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:46:34.028 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 1.015 seconds (JVM running for 49900.518)
+2022-06-23 10:46:34.029 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 10:46:35.631 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Starting UserManagementControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 7788 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 10:46:35.632 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 10:46:38.633 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 10:46:39.258 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 10:46:39.259 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 10:46:39.259 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2022-06-23 10:46:39.279 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 10:46:39.308 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 10:46:39.343 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 10:46:39.362 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Started UserManagementControllerTest in 4.194 seconds (JVM running for 5.216)
+2022-06-23 10:46:39.744 [main] INFO  c.b.t.nontax.controller.UserManagementController - 资源删除：{id=1539799573135360004}
+2022-06-23 10:46:39.791 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 10:46:39.996 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 10:46:40.137 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 10:46:40.150 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 11:24:08.825 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-23 11:24:08.826 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-23 11:24:08.827 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-06-23 11:24:08.847 [http-nio-8080-exec-2] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin 密码：123abc
+2022-06-23 11:24:08.854 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2022-06-23 11:24:08.857 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2022-06-23 11:25:59.848 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Starting SystemControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 2324 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 11:25:59.849 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 11:26:02.895 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 11:26:03.509 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 11:26:03.510 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 11:26:03.511 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 11:26:03.534 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 11:26:03.553 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 11:26:03.588 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 11:26:03.608 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Started SystemControllerTest in 4.223 seconds (JVM running for 5.288)
+2022-06-23 11:26:04.028 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：null 密码：123abc
+2022-06-23 11:26:04.067 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 11:26:04.269 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 11:26:04.489 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 11:26:04.533 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 11:28:26.620 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Starting SystemControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 14940 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 11:28:26.621 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 11:28:29.582 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 11:28:30.162 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 11:28:30.162 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 11:28:30.163 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 11:28:30.179 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 11:28:30.198 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 11:28:30.231 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 11:28:30.253 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Started SystemControllerTest in 4.064 seconds (JVM running for 5.072)
+2022-06-23 11:28:30.640 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin 密码：123abc
+2022-06-23 11:28:30.676 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 11:28:30.852 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 11:28:31.452 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 11:28:31.463 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 11:30:17.377 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Starting SystemControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 6808 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 11:30:17.378 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 11:30:20.340 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 11:30:20.923 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 11:30:20.923 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 11:30:20.923 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2022-06-23 11:30:20.941 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 11:30:20.964 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 11:30:20.995 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 11:30:21.017 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Started SystemControllerTest in 4.049 seconds (JVM running for 5.108)
+2022-06-23 11:30:21.415 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin_wrong 密码：123abc
+2022-06-23 11:30:21.463 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 11:30:21.652 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 11:30:21.830 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 11:30:21.840 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 11:31:19.446 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Starting SystemControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 16760 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 11:31:19.447 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 11:31:22.382 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 11:31:23.003 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 11:31:23.003 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 11:31:23.004 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 11:31:23.020 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 11:31:23.041 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 11:31:23.075 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 11:31:23.095 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Started SystemControllerTest in 4.116 seconds (JVM running for 5.172)
+2022-06-23 11:31:23.507 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin_wrong 密码：123abc
+2022-06-23 11:31:23.545 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 11:31:23.729 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 11:31:23.870 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 11:31:23.882 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 11:37:22.420 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Starting SystemControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 6200 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 11:37:22.422 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 11:37:25.307 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 11:37:25.916 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 11:37:25.917 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 11:37:25.918 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 11:37:25.936 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 11:37:25.957 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 11:37:25.985 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 11:37:26.004 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Started SystemControllerTest in 4.0 seconds (JVM running for 5.003)
+2022-06-23 11:38:24.055 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Starting SystemControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 16752 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 11:38:24.056 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 11:38:27.071 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 11:38:27.626 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 11:38:27.626 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 11:38:27.627 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 11:38:27.643 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 11:38:27.664 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 11:38:27.695 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 11:38:27.716 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Started SystemControllerTest in 4.114 seconds (JVM running for 5.154)
+2022-06-23 11:39:05.336 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Starting SystemControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 6136 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 11:39:05.338 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 11:39:08.258 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 11:39:08.875 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 11:39:08.876 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 11:39:08.877 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 11:39:08.893 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 11:39:08.914 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 11:39:08.943 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 11:39:08.962 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Started SystemControllerTest in 4.077 seconds (JVM running for 5.116)
+2022-06-23 11:39:17.745 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Starting SystemControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 2744 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 11:39:17.747 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 11:39:21.989 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 11:39:22.818 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 11:39:22.819 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 11:39:22.821 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2022-06-23 11:39:22.847 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 11:39:22.883 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 11:39:22.940 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 11:39:22.974 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Started SystemControllerTest in 5.863 seconds (JVM running for 7.162)
+2022-06-23 11:43:42.988 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Starting SystemControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 11280 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 11:43:42.989 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 11:43:46.845 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 11:43:47.796 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 11:43:47.796 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 11:43:47.798 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2022-06-23 11:43:47.832 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 11:43:47.862 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 11:43:47.912 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 11:43:47.947 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Started SystemControllerTest in 5.396 seconds (JVM running for 6.404)
+2022-06-23 11:43:48.600 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin_wrong 密码：123abc
+2022-06-23 11:43:48.660 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 11:43:48.942 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 11:43:49.222 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin 密码：123abc
+2022-06-23 11:43:49.939 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 11:43:49.955 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 11:46:33.619 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Starting SystemControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 19332 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 11:46:33.620 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 11:46:37.408 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 11:46:38.256 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 11:46:38.262 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 11:46:38.263 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 11:46:38.285 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 11:46:38.303 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 11:46:38.340 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 11:46:38.382 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Started SystemControllerTest in 5.228 seconds (JVM running for 6.22)
+2022-06-23 11:46:38.922 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin_wrong 密码：123abc
+2022-06-23 11:46:38.974 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 11:46:39.259 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 11:46:39.511 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin 密码：123abc
+2022-06-23 11:46:40.208 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 11:46:40.220 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 11:57:34.018 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Starting SystemControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 3064 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 11:57:34.019 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 11:57:37.287 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 11:57:38.070 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 11:57:38.070 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 11:57:38.070 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2022-06-23 11:57:38.086 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 11:57:38.111 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 11:57:38.163 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 11:57:38.186 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Started SystemControllerTest in 4.64 seconds (JVM running for 5.675)
+2022-06-23 11:57:38.700 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin_wrong 密码：123abc
+2022-06-23 11:57:38.743 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 11:57:38.998 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 11:57:39.204 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin 密码：123abc
+2022-06-23 11:57:39.823 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 11:57:39.835 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 12:00:18.946 [Thread-130] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2022-06-23 12:00:18.951 [Thread-130] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2022-06-23 12:00:19.372 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Starting TraineeApplication using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8612 (E:\IDEAproject\trainee\target\classes started by DELL in E:\IDEAproject\trainee)
+2022-06-23 12:00:19.373 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 12:00:19.440 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Starting SystemControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 932 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 12:00:19.441 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 12:00:19.792 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-23 12:00:19.792 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-06-23 12:00:19.792 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-06-23 12:00:19.792 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-06-23 12:00:19.792 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-23 12:00:19.793 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-06-23 12:00:19.793 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-23 12:00:19.793 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-23 12:00:19.793 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-23 12:00:19.813 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-23 12:00:19.813 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 438 ms
+2022-06-23 12:00:20.453 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 12:00:20.494 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-23 12:00:20.550 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-23 12:00:20.552 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 12:00:20.553 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 12:00:20.554 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 12:00:20.561 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 12:00:20.564 [restartedMain] INFO  com.bosssoft.trainee.TraineeApplication - Started TraineeApplication in 1.228 seconds (JVM running for 54327.054)
+2022-06-23 12:00:20.565 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-23 12:00:22.675 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 12:00:23.412 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 12:00:23.413 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 12:00:23.414 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 12:00:23.434 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 12:00:23.451 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 12:00:23.506 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 12:00:23.534 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Started SystemControllerTest in 4.679 seconds (JVM running for 5.796)
+2022-06-23 12:00:24.067 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin_wrong 密码：123abc
+2022-06-23 12:00:24.121 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 12:00:24.370 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 12:00:24.593 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin 密码：123abc
+2022-06-23 12:00:25.318 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 12:00:25.353 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 12:02:41.138 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Starting SystemControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 18984 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 12:02:41.138 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 12:02:45.131 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 12:02:45.994 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 12:02:45.999 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 12:02:46.000 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 12:02:46.023 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 12:02:46.057 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 12:02:46.101 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 12:02:46.128 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Started SystemControllerTest in 5.44 seconds (JVM running for 6.484)
+2022-06-23 12:02:46.692 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin 密码：123abc
+2022-06-23 12:02:46.728 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 12:02:46.981 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 12:02:47.725 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin_wrong 密码：123abc
+2022-06-23 12:02:47.827 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 12:02:47.841 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 12:07:06.989 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Starting SystemControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 18504 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 12:07:06.990 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 12:07:10.035 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 12:07:10.631 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 12:07:10.631 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 12:07:10.632 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 12:07:10.648 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 12:07:10.669 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 12:07:10.707 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 12:07:10.729 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Started SystemControllerTest in 4.178 seconds (JVM running for 5.194)
+2022-06-23 12:07:11.164 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin 密码：123abc
+2022-06-23 12:07:11.206 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 12:07:11.388 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 12:07:11.972 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin_wrong 密码：123abc
+2022-06-23 12:07:12.050 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 12:07:12.061 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 12:08:08.457 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-23 12:08:08.459 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-23 12:08:08.460 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-06-23 12:08:08.464 [http-nio-8080-exec-2] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin 密码：123abc
+2022-06-23 12:08:08.470 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2022-06-23 12:08:08.474 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2022-06-23 12:08:21.759 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Starting SystemControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 8864 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 12:08:21.760 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 12:08:24.697 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 12:08:25.263 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 12:08:25.268 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 12:08:25.269 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 12:08:25.285 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 12:08:25.304 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 12:08:25.343 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 12:08:25.360 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Started SystemControllerTest in 4.03 seconds (JVM running for 5.005)
+2022-06-23 12:08:25.780 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin 密码：123abc
+2022-06-23 12:08:25.812 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 12:08:26.001 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 12:08:26.593 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin_wrong 密码：123abc
+2022-06-23 12:08:26.672 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 12:08:26.684 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-23 12:10:00.135 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Starting SystemControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 444 (started by DELL in E:\IDEAproject\trainee)
+2022-06-23 12:10:00.136 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-23 12:10:03.042 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-23 12:10:03.600 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-23 12:10:03.610 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-23 12:10:03.611 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-23 12:10:03.634 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-23 12:10:03.648 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-23 12:10:03.682 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-23 12:10:03.709 [main] INFO  c.b.t.juitTest.controller.SystemControllerTest - Started SystemControllerTest in 4.026 seconds (JVM running for 5.033)
+2022-06-23 12:10:04.118 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin 密码：123abc
+2022-06-23 12:10:04.164 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-23 12:10:04.347 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-23 12:10:04.953 [main] INFO  c.b.trainee.nontax.controller.SystemController - 用户登录：用户名：admin_wrong 密码：123abc
+2022-06-23 12:10:05.012 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-23 12:10:05.021 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,418 @@
+2022-06-25 07:28:03.418 [main] INFO  c.b.t.juitTest.controller.RoleTableControllerTest - Starting RoleTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 9440 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:28:03.420 [main] INFO  c.b.t.juitTest.controller.RoleTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:28:06.496 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:28:07.049 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:28:07.058 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:28:07.059 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-25 07:28:07.071 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:28:07.088 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:28:07.114 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:28:07.147 [main] INFO  c.b.t.juitTest.controller.RoleTableControllerTest - Started RoleTableControllerTest in 4.148 seconds (JVM running for 5.247)
+2022-06-25 07:28:07.398 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 角色查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:28:07.398 [main] INFO  c.b.trainee.nontax.service.impl.RoleServiceImpl - 传递过来的参数{page=1, limit=20, sort=+id}
+2022-06-25 07:28:07.515 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:28:07.685 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:28:07.948 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 角色查询：{page=1, limit=20, sort=+id, role_name=e}
+2022-06-25 07:28:07.949 [main] INFO  c.b.trainee.nontax.service.impl.RoleServiceImpl - 传递过来的参数{page=1, limit=20, sort=+id, role_name=e}
+2022-06-25 07:28:08.040 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 添加角色:角色名：管理员_createRoleNotExist，公司名称：公司1，角色备注：null
+2022-06-25 07:28:08.066 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 修改角色:{role_name=管理员_test, role_company=公司2, id=1539625086133809153}
+2022-06-25 07:28:08.082 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 修改角色:{role_name=管理员_test, role_company=公司2, id=1539625076133809153}
+2022-06-25 07:28:08.093 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 删除角色：角色id：1539776192197505026
+2022-06-25 07:28:08.122 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:28:08.134 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 07:28:19.371 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Starting SubsysTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 15804 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:28:19.373 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:28:22.604 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:28:23.452 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:28:23.452 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:28:23.452 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2022-06-25 07:28:23.479 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:28:23.503 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:28:23.545 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:28:23.573 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Started SubsysTableControllerTest in 4.665 seconds (JVM running for 5.801)
+2022-06-25 07:28:23.914 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:28:24.089 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:28:24.334 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:28:24.714 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统查询：{page=1, limit=20, sort=+id, subsys_name=s, subsys_remark=子}
+2022-06-25 07:28:24.857 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统修改：{subsys_image_url=123456, id=1539396540949901313, subsys_link=/view/subsys_test}
+2022-06-25 07:28:24.870 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统修改：{subsys_image_url=123456, id=1539396540940901313, subsys_link=/view/subsys_test}
+2022-06-25 07:28:24.880 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统删除：{id=1539396540949901314}
+2022-06-25 07:28:24.912 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:28:24.924 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 07:28:35.498 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Starting ResourceTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 20428 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:28:35.500 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:28:38.860 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:28:39.581 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:28:39.581 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:28:39.582 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-25 07:28:39.608 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:28:39.625 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:28:39.666 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:28:39.689 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Started ResourceTableControllerTest in 4.664 seconds (JVM running for 5.789)
+2022-06-25 07:28:40.018 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:28:40.200 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:28:40.447 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:28:40.834 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id, resource_name=add}
+2022-06-25 07:28:40.930 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:28:40.957 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:28:40.971 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, id=1539792221137014785, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:28:40.994 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, id=1539792221137074785, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:28:41.006 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源删除：{id=1539792221137014786}
+2022-06-25 07:28:41.233 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:28:41.247 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 07:33:34.194 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Starting ResourceTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 18544 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:33:34.194 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:33:37.060 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:33:37.632 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:33:37.632 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:33:37.636 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-25 07:33:37.657 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:33:37.672 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:33:37.721 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:33:37.738 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Started ResourceTableControllerTest in 3.946 seconds (JVM running for 4.941)
+2022-06-25 07:33:38.016 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:33:38.139 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:33:38.331 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:33:38.628 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id, resource_name=add}
+2022-06-25 07:33:38.705 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:33:38.729 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:33:38.740 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, id=1540477036928729090, resource_remark=update测试用例, resource_name=menu_update}
+2022-06-25 07:33:38.751 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, id=1540477036928729090, resource_remark=update测试用例, resource_name=menu_update}
+2022-06-25 07:33:38.764 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源删除：{id=1539792221137014786}
+2022-06-25 07:33:38.916 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:33:38.926 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 07:34:55.293 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Starting ResourceTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 17592 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:34:55.295 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:34:58.121 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:34:58.697 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:34:58.698 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:34:58.699 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-25 07:34:58.720 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:34:58.739 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:34:58.773 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:34:58.793 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Started ResourceTableControllerTest in 3.898 seconds (JVM running for 4.946)
+2022-06-25 07:34:59.049 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:34:59.171 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:34:59.379 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:34:59.695 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id, resource_name=add}
+2022-06-25 07:34:59.779 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:34:59.803 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:34:59.813 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, id=1540477036928729090, resource_remark=update测试用例, resource_name=menu_update}
+2022-06-25 07:34:59.828 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, id=1540477036958729090, resource_remark=update测试用例, resource_name=menu_update}
+2022-06-25 07:34:59.837 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源删除：{id=1539792221137014786}
+2022-06-25 07:34:59.860 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:34:59.871 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 07:35:09.633 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Starting UserManagementControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 13460 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:35:09.634 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:35:12.538 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:35:13.114 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:35:13.114 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:35:13.114 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2022-06-25 07:35:13.148 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:35:13.174 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:35:13.203 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:35:13.225 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Started UserManagementControllerTest in 4.045 seconds (JVM running for 5.068)
+2022-06-25 07:35:13.527 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:35:13.654 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:35:13.845 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:35:14.125 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户查询：{page=1, limit=20, sort=+id, user_name=ad, phone_num=123}
+2022-06-25 07:35:14.194 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户创建：{password=123456, user_name=user_createUserNotExist, sex=男, phone_num=15555589800}
+2022-06-25 07:35:14.227 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户创建：{password=123456, user_name=user_createUserNotExist, sex=男, phone_num=15555589800}
+2022-06-25 07:35:14.236 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户修改：{password=123456, user_name=user_update, sex=男, phone_num=15555589800, id=1539799573135360003}
+2022-06-25 07:35:14.250 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户修改：{password=123456, user_name=user_update, sex=男, phone_num=15555589800, id=1539799573545360003}
+2022-06-25 07:35:14.259 [main] INFO  c.b.t.nontax.controller.UserManagementController - 资源删除：{id=1539799573135360004}
+2022-06-25 07:35:14.283 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:35:14.294 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 07:36:29.838 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Starting UserManagementControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 11076 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:36:29.839 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:36:32.713 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:36:33.261 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:36:33.270 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:36:33.271 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-25 07:36:33.292 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:36:33.311 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:36:33.346 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:36:33.370 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Started UserManagementControllerTest in 3.942 seconds (JVM running for 4.93)
+2022-06-25 07:36:33.611 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:36:33.735 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:36:33.923 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:36:34.180 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户查询：{page=1, limit=20, sort=+id, user_name=ad, phone_num=123}
+2022-06-25 07:36:34.257 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户创建：{password=123456, user_name=user_createUserNotExist, sex=男, phone_num=15555589800}
+2022-06-25 07:36:34.280 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户创建：{password=123456, user_name=user_createUserNotExist, sex=男, phone_num=15555589800}
+2022-06-25 07:36:34.291 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户修改：{password=123456, user_name=user_update, sex=男, phone_num=15555589800, id=1539799573135360003}
+2022-06-25 07:36:34.302 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户修改：{password=123456, user_name=user_update, sex=男, phone_num=15555589800, id=1539799573545360003}
+2022-06-25 07:36:34.310 [main] INFO  c.b.t.nontax.controller.UserManagementController - 资源删除：{id=1539799573135360004}
+2022-06-25 07:36:34.330 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:36:34.340 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 07:36:45.659 [main] INFO  c.b.t.juitTest.controller.RoleTableControllerTest - Starting RoleTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 17748 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:36:45.661 [main] INFO  c.b.t.juitTest.controller.RoleTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:36:48.594 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:36:49.175 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:36:49.175 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:36:49.175 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2022-06-25 07:36:49.203 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:36:49.229 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:36:49.247 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:36:49.284 [main] INFO  c.b.t.juitTest.controller.RoleTableControllerTest - Started RoleTableControllerTest in 4.038 seconds (JVM running for 5.013)
+2022-06-25 07:36:49.544 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 角色查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:36:49.557 [main] INFO  c.b.trainee.nontax.service.impl.RoleServiceImpl - 传递过来的参数{page=1, limit=20, sort=+id}
+2022-06-25 07:36:49.677 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:36:49.870 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:36:50.146 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 角色查询：{page=1, limit=20, sort=+id, role_name=e}
+2022-06-25 07:36:50.147 [main] INFO  c.b.trainee.nontax.service.impl.RoleServiceImpl - 传递过来的参数{page=1, limit=20, sort=+id, role_name=e}
+2022-06-25 07:36:50.229 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 添加角色:角色名：管理员_createRoleNotExist，公司名称：公司1，角色备注：null
+2022-06-25 07:36:50.255 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 修改角色:{role_name=管理员_test, role_company=公司2, id=1539625086133809153}
+2022-06-25 07:36:50.267 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 修改角色:{role_name=管理员_test, role_company=公司2, id=1539625076133809153}
+2022-06-25 07:36:50.277 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 删除角色：角色id：1539776192197505026
+2022-06-25 07:36:50.308 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:36:50.319 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 07:38:22.741 [main] INFO  c.b.t.juitTest.controller.RoleTableControllerTest - Starting RoleTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 13868 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:38:22.743 [main] INFO  c.b.t.juitTest.controller.RoleTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:38:25.517 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:38:26.070 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:38:26.070 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:38:26.077 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-25 07:38:26.098 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:38:26.101 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:38:26.141 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:38:26.160 [main] INFO  c.b.t.juitTest.controller.RoleTableControllerTest - Started RoleTableControllerTest in 3.844 seconds (JVM running for 4.869)
+2022-06-25 07:38:26.406 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 角色查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:38:26.415 [main] INFO  c.b.trainee.nontax.service.impl.RoleServiceImpl - 传递过来的参数{page=1, limit=20, sort=+id}
+2022-06-25 07:38:26.531 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:38:26.710 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:38:26.962 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 角色查询：{page=1, limit=20, sort=+id, role_name=e}
+2022-06-25 07:38:26.963 [main] INFO  c.b.trainee.nontax.service.impl.RoleServiceImpl - 传递过来的参数{page=1, limit=20, sort=+id, role_name=e}
+2022-06-25 07:38:27.043 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 添加角色:角色名：管理员_createRoleNotExist，公司名称：公司1，角色备注：null
+2022-06-25 07:38:27.068 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 修改角色:{role_name=管理员_test, role_company=公司2, id=1539625086133809153}
+2022-06-25 07:38:27.079 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 修改角色:{role_name=管理员_test, role_company=公司2, id=1539625076133809153}
+2022-06-25 07:38:27.089 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 删除角色：角色id：1539776192197505026
+2022-06-25 07:38:27.110 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:38:27.122 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 07:38:34.058 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Starting SubsysTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 20356 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:38:34.059 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:38:36.937 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:38:37.500 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:38:37.504 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:38:37.505 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-25 07:38:37.521 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:38:37.542 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:38:37.571 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:38:37.594 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Started SubsysTableControllerTest in 3.941 seconds (JVM running for 4.947)
+2022-06-25 07:38:37.843 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:38:37.974 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:38:38.145 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:38:38.410 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统查询：{page=1, limit=20, sort=+id, subsys_name=s, subsys_remark=子}
+2022-06-25 07:38:38.521 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统修改：{subsys_image_url=123456, id=1539396540949901313, subsys_link=/view/subsys_test}
+2022-06-25 07:38:38.530 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统修改：{subsys_image_url=123456, id=1539396540940901313, subsys_link=/view/subsys_test}
+2022-06-25 07:38:38.540 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统删除：{id=1539396540949901314}
+2022-06-25 07:38:38.563 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:38:38.576 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 07:38:44.375 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Starting ResourceTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 12592 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:38:44.375 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:38:48.138 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:38:48.957 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:38:48.958 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:38:48.960 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-25 07:38:48.991 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:38:49.056 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:38:49.117 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:38:49.160 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Started ResourceTableControllerTest in 5.326 seconds (JVM running for 6.369)
+2022-06-25 07:38:49.693 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:38:49.920 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:38:50.235 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:38:50.688 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id, resource_name=add}
+2022-06-25 07:38:50.791 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:38:50.824 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:38:50.838 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, id=1540477036928729090, resource_remark=update测试用例, resource_name=menu_update}
+2022-06-25 07:38:50.853 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, id=1540477036958729090, resource_remark=update测试用例, resource_name=menu_update}
+2022-06-25 07:38:50.864 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源删除：{id=1539792221137014786}
+2022-06-25 07:38:50.892 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:38:50.909 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 07:41:21.550 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Starting ResourceTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 9348 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:41:21.552 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:41:24.365 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:41:24.917 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:41:24.917 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:41:24.918 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-25 07:41:24.935 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:41:24.937 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:41:24.972 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:41:24.995 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Started ResourceTableControllerTest in 3.839 seconds (JVM running for 4.871)
+2022-06-25 07:41:25.238 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:41:25.359 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:41:25.529 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:41:25.834 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id, resource_name=add}
+2022-06-25 07:41:25.902 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:41:25.933 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:41:25.943 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, id=1540477036928729090, resource_remark=update测试用例, resource_name=menu_update}
+2022-06-25 07:41:25.956 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, id=1540477036958729090, resource_remark=update测试用例, resource_name=menu_update}
+2022-06-25 07:41:25.965 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源删除：{id=1539792221137014786}
+2022-06-25 07:41:25.986 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:41:25.995 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 07:41:36.705 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Starting UserManagementControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 7792 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:41:36.706 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:41:39.530 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:41:40.071 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:41:40.076 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:41:40.076 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2022-06-25 07:41:40.092 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:41:40.112 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:41:40.150 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:41:40.167 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Started UserManagementControllerTest in 3.879 seconds (JVM running for 4.864)
+2022-06-25 07:41:40.408 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:41:40.547 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:41:40.748 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:41:41.023 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户查询：{page=1, limit=20, sort=+id, user_name=ad, phone_num=123}
+2022-06-25 07:41:41.090 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户创建：{password=123456, user_name=user_createUserNotExist, sex=男, phone_num=15555589800}
+2022-06-25 07:41:41.114 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户创建：{password=123456, user_name=user_createUserNotExist, sex=男, phone_num=15555589800}
+2022-06-25 07:41:41.127 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户修改：{password=123456, user_name=user_update, sex=男, phone_num=15555589800, id=1539799573135360003}
+2022-06-25 07:41:41.139 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户修改：{password=123456, user_name=user_update, sex=男, phone_num=15555589800, id=1539799573545360003}
+2022-06-25 07:41:41.147 [main] INFO  c.b.t.nontax.controller.UserManagementController - 资源删除：{id=1539799573135360004}
+2022-06-25 07:41:41.167 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:41:41.179 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 07:41:58.083 [main] INFO  c.b.t.juitTest.controller.RoleTableControllerTest - Starting RoleTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 5896 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:41:58.084 [main] INFO  c.b.t.juitTest.controller.RoleTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:42:01.081 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:42:01.647 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:42:01.650 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:42:01.651 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-25 07:42:01.676 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:42:01.695 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:42:01.718 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:42:01.742 [main] INFO  c.b.t.juitTest.controller.RoleTableControllerTest - Started RoleTableControllerTest in 4.069 seconds (JVM running for 5.178)
+2022-06-25 07:42:01.991 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 角色查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:42:02.005 [main] INFO  c.b.trainee.nontax.service.impl.RoleServiceImpl - 传递过来的参数{page=1, limit=20, sort=+id}
+2022-06-25 07:42:02.125 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:42:02.310 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:42:02.614 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 角色查询：{page=1, limit=20, sort=+id, role_name=e}
+2022-06-25 07:42:02.614 [main] INFO  c.b.trainee.nontax.service.impl.RoleServiceImpl - 传递过来的参数{page=1, limit=20, sort=+id, role_name=e}
+2022-06-25 07:42:02.695 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 添加角色:角色名：管理员_createRoleNotExist，公司名称：公司1，角色备注：null
+2022-06-25 07:42:02.722 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 修改角色:{role_name=管理员_test, role_company=公司2, id=1539625086133809153}
+2022-06-25 07:42:02.737 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 修改角色:{role_name=管理员_test, role_company=公司2, id=1539625076133809153}
+2022-06-25 07:42:02.748 [main] INFO  c.b.trainee.nontax.controller.RoleTableController - 删除角色：角色id：1539776192197505026
+2022-06-25 07:42:02.776 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:42:02.789 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 07:42:10.059 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Starting SubsysTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 12444 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:42:10.061 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:42:13.611 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:42:14.374 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:42:14.383 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:42:14.384 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-25 07:42:14.408 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:42:14.429 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:42:14.479 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:42:14.511 [main] INFO  c.b.t.j.controller.SubsysTableControllerTest - Started SubsysTableControllerTest in 4.957 seconds (JVM running for 5.98)
+2022-06-25 07:42:14.857 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:42:15.001 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:42:15.241 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:42:15.604 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统查询：{page=1, limit=20, sort=+id, subsys_name=s, subsys_remark=子}
+2022-06-25 07:42:15.736 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统修改：{subsys_image_url=123456, id=1539396540949901313, subsys_link=/view/subsys_test}
+2022-06-25 07:42:15.750 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统修改：{subsys_image_url=123456, id=1539396540940901313, subsys_link=/view/subsys_test}
+2022-06-25 07:42:15.761 [main] INFO  c.b.t.nontax.controller.SubsysTableController - 子系统删除：{id=1539396540949901314}
+2022-06-25 07:42:15.795 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:42:15.809 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 07:42:21.579 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Starting ResourceTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 852 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:42:21.580 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:42:25.124 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:42:25.897 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:42:25.903 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:42:25.904 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-25 07:42:25.930 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:42:25.950 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:42:26.002 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:42:26.034 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Started ResourceTableControllerTest in 4.986 seconds (JVM running for 6.088)
+2022-06-25 07:42:26.410 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:42:26.573 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:42:26.811 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:42:27.192 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id, resource_name=add}
+2022-06-25 07:42:27.282 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:42:27.306 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:42:27.320 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, id=1540477036928729090, resource_remark=update测试用例, resource_name=menu_update}
+2022-06-25 07:42:27.336 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, id=1540477036958729090, resource_remark=update测试用例, resource_name=menu_update}
+2022-06-25 07:42:27.349 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源删除：{id=1539792221137014786}
+2022-06-25 07:42:27.380 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:42:27.392 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 07:43:35.441 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Starting UserManagementControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 5716 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:43:35.442 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:43:38.232 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:43:38.788 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:43:38.788 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:43:38.799 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-25 07:43:38.823 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:43:38.841 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:43:38.865 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:43:38.883 [main] INFO  c.b.t.j.controller.UserManagementControllerTest - Started UserManagementControllerTest in 3.851 seconds (JVM running for 4.819)
+2022-06-25 07:43:39.156 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:43:39.265 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:43:39.462 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:43:39.730 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户查询：{page=1, limit=20, sort=+id, user_name=ad, phone_num=123}
+2022-06-25 07:43:39.797 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户创建：{password=123456, user_name=user_createUserNotExist, sex=男, phone_num=15555589800}
+2022-06-25 07:43:39.832 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户创建：{password=123456, user_name=user_createUserNotExist, sex=男, phone_num=15555589800}
+2022-06-25 07:43:39.845 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户修改：{password=123456, user_name=user_update, sex=男, phone_num=15555589800, id=1539799573135360003}
+2022-06-25 07:43:39.858 [main] INFO  c.b.t.nontax.controller.UserManagementController - 用户修改：{password=123456, user_name=user_update, sex=男, phone_num=15555589800, id=1539799573545360003}
+2022-06-25 07:43:39.867 [main] INFO  c.b.t.nontax.controller.UserManagementController - 资源删除：{id=1539799573135360004}
+2022-06-25 07:43:39.889 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:43:39.901 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 07:43:51.094 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Starting ResourceTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 19544 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:43:51.095 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:43:53.983 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:43:54.571 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:43:54.574 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:43:54.575 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-25 07:43:54.593 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:43:54.611 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:43:54.641 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:43:54.662 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Started ResourceTableControllerTest in 3.983 seconds (JVM running for 4.954)
+2022-06-25 07:43:54.953 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:43:55.100 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:43:55.343 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:43:55.729 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id, resource_name=add}
+2022-06-25 07:43:55.841 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:43:55.867 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:43:55.883 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test_update, resource_api=/test, resource_type=菜单, id=1540477036928729090, resource_remark=update测试用例, resource_name=menu_update}
+2022-06-25 07:43:55.903 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test_update, resource_api=/test, resource_type=菜单, id=1540477036958729090, resource_remark=update测试用例, resource_name=menu_update}
+2022-06-25 07:43:55.915 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源删除：{id=1539792221137014786}
+2022-06-25 07:43:55.947 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:43:55.960 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 07:44:59.829 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Starting ResourceTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 18920 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:44:59.830 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:45:02.629 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:45:03.172 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:45:03.172 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:45:03.173 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2022-06-25 07:45:03.192 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:45:03.213 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:45:03.247 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:45:03.265 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Started ResourceTableControllerTest in 3.854 seconds (JVM running for 4.838)
+2022-06-25 07:45:03.530 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:45:03.632 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:45:03.813 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:45:04.093 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id, resource_name=add}
+2022-06-25 07:45:04.164 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:45:04.186 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:45:04.198 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test_update, resource_api=/test, resource_type=菜单, id=1540477036928729090, resource_remark=update测试用例, resource_name=menu_update}
+2022-06-25 07:45:04.209 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test_update, resource_api=/test, resource_type=菜单, id=1540477036958729090, resource_remark=update测试用例, resource_name=menu_update}
+2022-06-25 07:45:04.217 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源删除：{id=1539792221137014786}
+2022-06-25 07:45:04.236 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:45:04.356 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 07:45:17.116 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Starting ResourceTableControllerTest using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 18328 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 07:45:17.116 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 07:45:19.890 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-25 07:45:20.470 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-06-25 07:45:20.470 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2022-06-25 07:45:20.477 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 7 ms
+2022-06-25 07:45:20.491 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-25 07:45:20.500 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-25 07:45:20.544 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-25 07:45:20.568 [main] INFO  c.b.t.j.controller.ResourceTableControllerTest - Started ResourceTableControllerTest in 3.905 seconds (JVM running for 4.935)
+2022-06-25 07:45:20.833 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id}
+2022-06-25 07:45:20.964 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-25 07:45:21.161 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-25 07:45:21.459 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 子系统查询：{page=1, limit=20, sort=+id, resource_name=add}
+2022-06-25 07:45:21.534 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:45:21.562 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源创建：{resource_url=/view/subsys_test, resource_api=/test, resource_type=菜单, resource_remark=update测试用例, resource_name=菜单_createResourceNotExist}
+2022-06-25 07:45:21.573 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test_update, resource_api=/test, resource_type=菜单, id=1540477036928729090, resource_remark=update测试用例, resource_name=menu_update}
+2022-06-25 07:45:21.585 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源修改：{resource_url=/view/subsys_test_update, resource_api=/test, resource_type=菜单, id=1540477036958729090, resource_remark=update测试用例, resource_name=menu_update}
+2022-06-25 07:45:21.593 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源删除：{id=1539792221137014786}
+2022-06-25 07:45:21.614 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-25 07:45:21.760 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

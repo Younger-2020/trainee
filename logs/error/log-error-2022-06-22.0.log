@@ -1,0 +1,107 @@
+2022-06-22 00:24:12.719 [http-nio-8080-exec-1] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - java.lang.String cannot be cast to java.lang.Integer
+2022-06-22 00:26:50.842 [http-nio-8080-exec-2] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - null
+2022-06-22 00:34:10.894 [http-nio-8080-exec-2] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - null
+2022-06-22 00:36:40.691 [http-nio-8080-exec-2] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - null
+2022-06-22 00:37:18.087 [http-nio-8080-exec-2] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - null
+2022-06-22 00:39:56.734 [http-nio-8080-exec-2] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - null
+2022-06-22 00:41:53.887 [http-nio-8080-exec-2] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - null
+2022-06-22 11:23:06.704 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field resourceService in com.bosssoft.trainee.nontax.controller.ResourceTableController required a bean of type 'com.bosssoft.trainee.nontax.service.ResourceService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.bosssoft.trainee.nontax.service.ResourceService' in your configuration.
+
+2022-06-22 11:30:01.283 [http-nio-8080-exec-9] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 2]
+2022-06-22 11:30:08.055 [http-nio-8080-exec-10] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'name' doesn't have a default value
+### The error may exist in com/bosssoft/trainee/nontax/mapper/ResourceMapper.java (best guess)
+### The error may involve com.bosssoft.trainee.nontax.mapper.ResourceMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO basic_resource  ( id,            status )  VALUES  ( ?,            ? )
+### Cause: java.sql.SQLException: Field 'name' doesn't have a default value
+; Field 'name' doesn't have a default value; nested exception is java.sql.SQLException: Field 'name' doesn't have a default value
+2022-06-22 14:54:17.904 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userService in com.bosssoft.trainee.nontax.controller.SystemController required a bean of type 'com.bosssoft.trainee.nontax.service.UserService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.bosssoft.trainee.nontax.service.UserService' in your configuration.
+
+2022-06-22 14:54:25.662 [http-nio-8080-exec-1] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'roles' in 'field list'
+### The error may exist in com/bosssoft/trainee/nontax/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id, name, password, profile_picture, sex, tel, remark, department_id, position_id, company_id, created_by, created_time, updated_by, updated_time, roles, status, version FROM basic_user WHERE status = 1 ORDER BY id ASC LIMIT ?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'roles' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'roles' in 'field list'
+2022-06-22 20:31:14.408 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field roleService in com.bosssoft.trainee.nontax.controller.RoleTableController required a bean of type 'com.bosssoft.trainee.nontax.service.RoleService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.bosssoft.trainee.nontax.service.RoleService' in your configuration.
+
+2022-06-22 20:32:14.567 [http-nio-8080-exec-1] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request body is missing: public com.bosssoft.trainee.nontax.util.Result com.bosssoft.trainee.nontax.controller.RoleTableController.listAllRoles(java.util.Map<java.lang.String, java.lang.Object>)
+2022-06-22 20:35:30.548 [http-nio-8080-exec-3] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request body is missing: public com.bosssoft.trainee.nontax.util.Result com.bosssoft.trainee.nontax.controller.RoleTableController.listAllRoles(java.util.Map<java.lang.String, java.lang.Object>)
+2022-06-22 20:40:30.370 [http-nio-8080-exec-2] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request body is missing: public com.bosssoft.trainee.nontax.util.Result com.bosssoft.trainee.nontax.controller.RoleTableController.listAllRoles(java.util.Map<java.lang.String, java.lang.Object>)
+2022-06-22 20:40:46.449 [http-nio-8080-exec-3] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request body is missing: public com.bosssoft.trainee.nontax.util.Result com.bosssoft.trainee.nontax.controller.RoleTableController.listAllRoles(java.util.Map<java.lang.String, java.lang.Object>)
+2022-06-22 20:42:17.984 [http-nio-8080-exec-2] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request body is missing: public com.bosssoft.trainee.nontax.util.Result com.bosssoft.trainee.nontax.controller.RoleTableController.listAllRoles(java.util.Map<java.lang.String, java.lang.Object>)
+2022-06-22 20:43:51.196 [http-nio-8080-exec-5] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request body is missing: public com.bosssoft.trainee.nontax.util.Result com.bosssoft.trainee.nontax.controller.RoleTableController.listAllRoles(java.util.Map<java.lang.String, java.lang.Object>)
+2022-06-22 20:44:29.258 [http-nio-8080-exec-2] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request body is missing: public com.bosssoft.trainee.nontax.util.Result com.bosssoft.trainee.nontax.controller.RoleTableController.listAllRoles(java.util.Map<java.lang.String, java.lang.Object>)
+2022-06-22 20:45:51.394 [http-nio-8080-exec-5] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request body is missing: public com.bosssoft.trainee.nontax.util.Result com.bosssoft.trainee.nontax.controller.RoleTableController.listAllRoles(java.util.Map<java.lang.String, java.lang.Object>)
+2022-06-22 20:47:13.465 [http-nio-8080-exec-2] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - null
+2022-06-22 20:48:51.040 [http-nio-8080-exec-3] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request body is missing: public com.bosssoft.trainee.nontax.util.Result com.bosssoft.trainee.nontax.controller.RoleTableController.listAllRoles(java.util.Map<java.lang.String, java.lang.Object>)
+2022-06-22 20:50:08.764 [http-nio-8080-exec-4] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request body is missing: public com.bosssoft.trainee.nontax.util.Result com.bosssoft.trainee.nontax.controller.RoleTableController.listAllRoles(java.util.Map<java.lang.String, java.lang.Object>)
+2022-06-22 20:50:45.536 [http-nio-8080-exec-7] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request body is missing: public com.bosssoft.trainee.nontax.util.Result com.bosssoft.trainee.nontax.controller.RoleTableController.listAllRoles(java.util.Map<java.lang.String, java.lang.Object>)
+2022-06-22 20:52:48.101 [http-nio-8080-exec-2] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request body is missing: public com.bosssoft.trainee.nontax.util.Result com.bosssoft.trainee.nontax.controller.RoleTableController.listAllRoles(java.util.Map<java.lang.String, java.lang.Object>)
+2022-06-22 20:53:04.092 [http-nio-8080-exec-5] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request body is missing: public com.bosssoft.trainee.nontax.util.Result com.bosssoft.trainee.nontax.controller.RoleTableController.listAllRoles(java.util.Map<java.lang.String, java.lang.Object>)
+2022-06-22 20:53:14.531 [http-nio-8080-exec-6] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request body is missing: public com.bosssoft.trainee.nontax.util.Result com.bosssoft.trainee.nontax.controller.RoleTableController.listAllRoles(java.util.Map<java.lang.String, java.lang.Object>)
+2022-06-22 20:55:10.800 [http-nio-8080-exec-1] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request body is missing: public com.bosssoft.trainee.nontax.util.Result com.bosssoft.trainee.nontax.controller.RoleTableController.listAllRoles(java.util.Map<java.lang.String, java.lang.Object>)
+2022-06-22 20:58:34.990 [http-nio-8080-exec-2] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request body is missing: public com.bosssoft.trainee.nontax.util.Result com.bosssoft.trainee.nontax.controller.RoleTableController.listAllRoles(java.util.Map<java.lang.String, java.lang.Object>)
+2022-06-22 21:01:06.244 [http-nio-8080-exec-5] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request body is missing: public com.bosssoft.trainee.nontax.util.Result com.bosssoft.trainee.nontax.controller.RoleTableController.listAllRoles(java.util.Map<java.lang.String, java.lang.Object>)
+2022-06-22 21:01:10.864 [http-nio-8080-exec-6] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request body is missing: public com.bosssoft.trainee.nontax.util.Result com.bosssoft.trainee.nontax.controller.RoleTableController.listAllRoles(java.util.Map<java.lang.String, java.lang.Object>)
+2022-06-22 21:13:27.576 [http-nio-8080-exec-2] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Request method 'POST' not supported
+2022-06-22 21:13:36.371 [http-nio-8080-exec-3] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - java.lang.String cannot be cast to java.lang.Integer
+2022-06-22 21:21:29.564 [http-nio-8080-exec-7] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - java.lang.String cannot be cast to java.lang.Integer
+2022-06-22 21:25:49.947 [http-nio-8080-exec-10] ERROR c.b.trainee.nontax.controller.LoggingController - 这是一个error日志
+2022-06-22 21:26:06.196 [http-nio-8080-exec-1] ERROR c.b.trainee.nontax.controller.LoggingController - 这是一个error日志
+2022-06-22 21:26:22.738 [http-nio-8080-exec-2] ERROR c.b.trainee.nontax.controller.LoggingController - 这是一个error日志
+2022-06-22 22:39:50.782 [main] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Required request body is missing: public com.bosssoft.trainee.nontax.util.Result com.bosssoft.trainee.nontax.controller.RoleTableController.createNewRole(java.util.Map<java.lang.String, java.lang.Object>)
+2022-06-22 22:46:38.841 [main] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Content type 'application/octet-stream' not supported
+2022-06-22 22:47:43.231 [main] ERROR c.b.t.nontax.exception.GlobalExceptionHandler - Content type 'application/octet-stream' not supported
