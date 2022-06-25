@@ -30,7 +30,7 @@ public class UserManagementController {
      */
     @GetMapping("/list")
     public Result listAllUsers(@RequestParam Map<String, Object> map) {
-        logger.info("用户查询：" + map.toString());
+        logger.info("用户查询：{}",map);
         HashMap<String, Object> stringObjectHashMap = new HashMap<>();
         List<UserDTO> userDTOS = userService.listUserByMap(map);
         List<UserVO> userVOS = new ArrayList<>();
@@ -52,13 +52,13 @@ public class UserManagementController {
      */
     @PostMapping("/create")
     public Result createNewUser(@RequestBody Map<String, Object> map) {
-        logger.info("用户创建：" + map.toString());
+        logger.info("用户创建：{}",map);
         String userName = (String) map.get("user_name");
-        Boolean exists = userService.hasThisUser(userName);
+        boolean exists = userService.hasThisUser(userName);
         if (exists) {
             return Result.fail().message("用户已存在");
         }
-        Boolean success = userService.saveUser(map);
+        boolean success = userService.saveUser(map);
         if (success) {
             return Result.ok().message("创建用户成功");
         } else {
@@ -74,8 +74,8 @@ public class UserManagementController {
      */
     @PostMapping("/update")
     public Result updateUser(@RequestBody Map<String, Object> map) {
-        logger.info("用户修改：" + map.toString());
-        Boolean success = userService.updateUser(map);
+        logger.info("用户修改：{}",map);
+        boolean success = userService.updateUser(map);
         if (success) {
             return Result.ok().message("用户信息修改成功");
         } else {
@@ -91,8 +91,8 @@ public class UserManagementController {
      */
     @PostMapping("/delete")
     public Result deleteUser(@RequestBody Map<String, Object> map) {
-        logger.info("资源删除：" + map.toString());
-        Boolean success = userService.removeById(Long.valueOf((String) map.get("id")));
+        logger.info("资源删除：{}",map);
+        boolean success = userService.removeById(Long.valueOf((String) map.get("id")));
         if (success) {
             return Result.ok().message("用户删除成功");
         } else {

@@ -20,7 +20,9 @@ public class Result<T> {
     @ApiModelProperty(value = "返回数据")
     private T data;
 
+
     public Result() {
+        // 无参构造
     }
 
     /**
@@ -31,7 +33,7 @@ public class Result<T> {
      * @return 统一返回对象
      */
     protected static <T> Result<T> build(T data) {
-        Result<T> result = new Result<T>();
+        Result<T> result = new Result<>();
         if (data != null)
             result.setData(data);
         return result;
@@ -79,7 +81,6 @@ public class Result<T> {
      * @return
      */
     public static <T> Result<T> ok(T data) {
-        Result<T> result = build(data);
         return build(data, ResultCodeEnum.SUCCESS);
     }
 
@@ -95,7 +96,6 @@ public class Result<T> {
      * @return
      */
     public static <T> Result<T> fail(T data) {
-        Result<T> result = build(data);
         return build(data, ResultCodeEnum.FAIL);
     }
 
@@ -110,9 +110,6 @@ public class Result<T> {
     }
 
     public boolean isOk() {
-        if (this.getCode().intValue() == ResultCodeEnum.SUCCESS.getCode().intValue()) {
-            return true;
-        }
-        return false;
+        return this.getCode().intValue() == ResultCodeEnum.SUCCESS.getCode().intValue();
     }
 }

@@ -3,7 +3,7 @@ package com.bosssoft.trainee.nontax.service;
 import com.bosssoft.trainee.nontax.entity.dto.UserDTO;
 import com.bosssoft.trainee.nontax.entity.po.User;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.bosssoft.trainee.nontax.util.Login.LoginForm;
+import com.bosssoft.trainee.nontax.util.login.LoginForm;
 
 import java.util.List;
 import java.util.Map;

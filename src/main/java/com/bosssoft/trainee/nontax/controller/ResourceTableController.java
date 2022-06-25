@@ -24,12 +24,13 @@ public class ResourceTableController {
 
     /**
      * 根据前端传递的参数列出所有资源
+     *
      * @param map
      * @return
      */
     @GetMapping("/list")
     public Result listAllRoles(@RequestParam Map<String, Object> map) {
-        logger.info("子系统查询："+map.toString());
+        logger.info("子系统查询：{}", map);
         HashMap<String, Object> stringObjectHashMap = new HashMap<>();
         List<ResourceDTO> resourceDTOS = resourceService.listResourceByMap(map);
         List<ResourceVO> resourceVOS = new ArrayList<>();
@@ -51,13 +52,13 @@ public class ResourceTableController {
      */
     @PostMapping("/create")
     public Result createNewResource(@RequestBody Map<String, Object> map) {
-        logger.info("资源创建：" + map.toString());
+        logger.info("资源创建：{}", map);
         String resourcesUrl = (String) map.get("resource_url");
-        Boolean exists = resourceService.hasThisResource(resourcesUrl);
+        boolean exists = resourceService.hasThisResource(resourcesUrl);
         if (exists) {
             return Result.fail().message("资源已存在");
         }
-        Boolean success = resourceService.saveResource(map);
+        boolean success = resourceService.saveResource(map);
         if (success) {
             return Result.ok().message("创建资源成功");
         } else {
@@ -73,8 +74,8 @@ public class ResourceTableController {
      */
     @PostMapping("/update")
     public Result updateResource(@RequestBody Map<String, Object> map) {
-        logger.info("资源修改：" + map.toString());
-        Boolean success = resourceService.updateResource(map);
+        logger.info("资源修改：{}", map);
+        boolean success = resourceService.updateResource(map);
         if (success) {
             return Result.ok().message("资源信息修改成功");
         } else {
@@ -84,13 +85,14 @@ public class ResourceTableController {
 
     /**
      * 删除子系统
+     *
      * @param map
      * @return
      */
     @PostMapping("/delete")
     public Result deleteResource(@RequestBody Map<String, Object> map) {
-        logger.info("资源删除：" + map.toString());
-        Boolean success = resourceService.removeById(Long.valueOf((String) map.get("id")));
+        logger.info("资源删除：{}", map);
+        boolean success = resourceService.removeById(Long.valueOf((String) map.get("id")));
         if (success) {
             return Result.ok().message("资源信息删除成功");
         } else {

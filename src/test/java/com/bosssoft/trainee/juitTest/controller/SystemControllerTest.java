@@ -21,7 +21,7 @@ import java.util.HashMap;
 @SpringBootTest
 @AutoConfigureMockMvc
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class SystemControllerTest {
+class SystemControllerTest {
     @Autowired
     MockMvc mockMvc;
 

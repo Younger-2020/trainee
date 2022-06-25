@@ -1,36 +1,32 @@
 package com.bosssoft.trainee.nontax.util.JWT;
 
+import cn.hutool.core.util.StrUtil;
 import io.jsonwebtoken.*;
-import org.springframework.util.StringUtils;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 public class JwtHelper {
-    private static long tokenExpiration = 24 * 60 * 60 * 1000;
+    private static long tokenExpiration = 86400000L;
     private static String tokenSignKey = "123456";
 
     //生成token字符串
     public static String createToken(Long userId, String userName, List<String> roles) {
-        String token = Jwts.builder()
-
+        return Jwts.builder()
                 .setSubject("YYGH-USER")
-
                 .setExpiration(new Date(System.currentTimeMillis() + tokenExpiration))
-
                 .claim("userId", userId)
                 .claim("userName", userName)
                 .claim("roles", roles)
-
                 .signWith(SignatureAlgorithm.HS512, tokenSignKey)
                 .compressWith(CompressionCodecs.GZIP)
                 .compact();
-        return token;
     }
 
     //从token字符串获取userid
     public static Long getUserId(String token) {
-        if (StringUtils.isEmpty(token)) return null;
+        if (StrUtil.isEmpty(token)) return null;
         Jws<Claims> claimsJws = Jwts.parser().setSigningKey(tokenSignKey).parseClaimsJws(token);
         Claims claims = claimsJws.getBody();
         Integer userId = (Integer) claims.get("userId");
@@ -40,7 +36,7 @@ public class JwtHelper {
     //从token字符串获取userName
 
     public static String getUserName(String token) {
-        if (StringUtils.isEmpty(token)) return "";
+        if (StrUtil.isEmpty(token)) return "";
         Jws<Claims> claimsJws = Jwts.parser().setSigningKey(tokenSignKey).parseClaimsJws(token);
         Claims claims = claimsJws.getBody();
         return (String) claims.get("userName");
@@ -48,7 +44,8 @@ public class JwtHelper {
 
     //从token字符串获取用户角色信息
     public static List<String> getRoles(String token) {
-        if (StringUtils.isEmpty(token)) return null;
+        if (StrUtil.isEmpty(token)) return new ArrayList<String>() {
+        };
         Jws<Claims> claimsJws = Jwts.parser().setSigningKey(tokenSignKey).parseClaimsJws(token);
         Claims claims = claimsJws.getBody();
         return (List<String>) (claims.get("roles"));
@@ -57,13 +54,11 @@ public class JwtHelper {
     //判断token是否有效
     public static boolean isExpiration(String token) {
         try {
-            boolean isExpire = Jwts.parser()
+            return Jwts.parser()
                     .setSigningKey(tokenSignKey)
                     .parseClaimsJws(token)
                     .getBody()
                     .getExpiration().before(new Date());
-            //没有过期，有效，返回false
-            return isExpire;
         } catch (Exception e) {
             //过期出现异常，返回true
             return true;
@@ -80,26 +75,10 @@ public class JwtHelper {
     public String refreshToken(String token) {
         String refreshedToken;
         try {
-            final Claims claims = Jwts.parser()
-                    .setSigningKey(tokenSignKey)
-                    .parseClaimsJws(token)
-                    .getBody();
             refreshedToken = JwtHelper.createToken(getUserId(token), getUserName(token), getRoles(token));
         } catch (Exception e) {
             refreshedToken = null;
         }
         return refreshedToken;
-    }
-
-    public static void main(String[] args) {
-//        List<RoleDTO> roles = new ArrayList<>();
-//        ArrayList<String> strings = new ArrayList<>();
-//        strings.add("admin");
-//        strings.add("tester");
-//        String token = JwtHelper.createToken(1L, "tom", strings);
-//        System.out.println(token);
-//        System.out.println(JwtHelper.getUserId(token));
-//        System.out.println(JwtHelper.getUserName(token));
-//        System.out.println(JwtHelper.getRoles(token));
     }
 }

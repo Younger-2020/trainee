@@ -1,4 +1,4 @@
-package com.bosssoft.trainee.nontax.util.Login;
+package com.bosssoft.trainee.nontax.util.login;
 
 import lombok.Data;
 

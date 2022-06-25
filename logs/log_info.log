@@ -416,3 +416,6 @@
 2022-06-25 07:45:21.593 [main] INFO  c.b.t.nontax.controller.ResourceTableController - 资源删除：{id=1539792221137014786}
 2022-06-25 07:45:21.614 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2022-06-25 07:45:21.760 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-25 09:16:07.498 [main] INFO  com.bosssoft.trainee.TraineeApplicationTests - Starting TraineeApplicationTests using Java 1.8.0_74 on DESKTOP-SF9E78O with PID 15524 (started by DELL in E:\IDEAproject\trainee)
+2022-06-25 09:16:07.499 [main] INFO  com.bosssoft.trainee.TraineeApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2022-06-25 09:16:10.438 [main] INFO  com.bosssoft.trainee.TraineeApplicationTests - Started TraineeApplicationTests in 3.343 seconds (JVM running for 4.345)

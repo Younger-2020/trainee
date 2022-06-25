@@ -34,7 +34,7 @@ public class RoleServiceImpl extends ServiceImpl<RoleMapper, Role> implements Ro
 
     @Override
     public List<RoleDTO> listRolePageByCondition(Map<String, Object> map) {
-        logger.info("传递过来的参数"+map);
+        logger.info("传递过来的参数:{}",map);
         Integer pageNo = Integer.valueOf((String) map.get("page"));
         Integer pageSize = Integer.valueOf((String) map.get("limit"));
         String sort = (String) map.get("sort");

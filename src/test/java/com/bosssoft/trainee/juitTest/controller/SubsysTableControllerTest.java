@@ -23,7 +23,7 @@ import java.util.HashMap;
 @SpringBootTest
 @AutoConfigureMockMvc
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class SubsysTableControllerTest {
+class SubsysTableControllerTest {
     @Autowired
     MockMvc mockMvc;
 

@@ -3,7 +3,7 @@ package com.bosssoft.trainee.nontax.controller;
 import com.bosssoft.trainee.nontax.entity.dto.UserDTO;
 import com.bosssoft.trainee.nontax.service.UserService;
 import com.bosssoft.trainee.nontax.util.JWT.JwtHelper;
-import com.bosssoft.trainee.nontax.util.Login.LoginForm;
+import com.bosssoft.trainee.nontax.util.login.LoginForm;
 import com.bosssoft.trainee.nontax.util.Result;
 import com.bosssoft.trainee.nontax.util.ResultCodeEnum;
 import org.slf4j.Logger;
@@ -52,8 +52,8 @@ public class SystemController {
      */
     @RequestMapping("/info")
     public Result getInfo(@RequestParam("token") String token) {
-        boolean Expired = JwtHelper.isExpiration(token);
-        if (Expired) {
+        boolean expired = JwtHelper.isExpiration(token);
+        if (expired) {
             return Result.fail().message("token已过期！");
         } else {
             HashMap<String, Object> stringObjectHashMap = new HashMap<>();

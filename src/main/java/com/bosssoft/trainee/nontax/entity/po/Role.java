@@ -1,14 +1,10 @@
 package com.bosssoft.trainee.nontax.entity.po;
 
-import cn.hutool.core.bean.BeanUtil;
 import com.baomidou.mybatisplus.annotation.*;
+import lombok.Data;
 
 import java.io.Serializable;
 import java.util.Date;
-import java.util.List;
-
-import com.bosssoft.trainee.nontax.entity.dto.RoleDTO;
-import lombok.Data;
 
 /**
  * 角色

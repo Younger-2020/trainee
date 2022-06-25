@@ -1,6 +1,5 @@
 package com.bosssoft.trainee.nontax.entity.dto;
 
-import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
 
 import java.io.Serializable;

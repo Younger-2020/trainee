@@ -1,12 +1,10 @@
 package com.bosssoft.trainee.nontax.entity.po;
 
 import com.baomidou.mybatisplus.annotation.*;
+import lombok.Data;
 
 import java.io.Serializable;
 import java.util.Date;
-import java.util.List;
-
-import lombok.Data;
 
 /**
  * 用户

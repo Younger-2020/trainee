@@ -24,7 +24,7 @@ public class RoleTableController {
 
     @GetMapping("/list")
     public Result listAllRoles(@RequestParam Map<String, Object> map) {
-        logger.info("角色查询："+map.toString());
+        logger.info("角色查询：{}",map);
         HashMap<String, Object> stringObjectHashMap = new HashMap<>();
         List<RoleDTO> roleDTOS = roleService.listRolePageByCondition(map);
         List<RoleVO> roleVOS = new ArrayList<>();
@@ -68,7 +68,7 @@ public class RoleTableController {
      */
     @PostMapping("/update")
     public Result updateRole(@RequestBody Map<String, Object> map) {
-        logger.info("修改角色:"+map);
+        logger.info("修改角色:{}",map);
         boolean success = roleService.updateRole(map);
         if (success) {
             return Result.ok().message("修改成功");
@@ -84,7 +84,7 @@ public class RoleTableController {
      */
     @PostMapping("/delete")
     public Result deleteRole(@RequestBody Map<String, Object> map) {
-        long roleId = Long.valueOf((String) map.get("id"));
+        Long roleId = Long.valueOf((String) map.get("id"));
         logger.info("删除角色：角色id：{}",roleId);
         boolean success = roleService.removeById(roleId);
         if (success) {

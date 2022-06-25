@@ -23,7 +23,7 @@ import java.util.HashMap;
 @SpringBootTest
 @AutoConfigureMockMvc
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class RoleTableControllerTest {
+class RoleTableControllerTest {
     @Autowired
     MockMvc mockMvc;
 

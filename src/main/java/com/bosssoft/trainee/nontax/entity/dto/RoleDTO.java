@@ -1,8 +1,5 @@
 package com.bosssoft.trainee.nontax.entity.dto;
 
-import com.bosssoft.trainee.nontax.entity.po.Resource;
-import com.bosssoft.trainee.nontax.entity.po.Role;
-import com.bosssoft.trainee.nontax.entity.vo.RoleVO;
 import lombok.Data;
 
 import java.io.Serializable;

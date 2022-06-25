@@ -30,7 +30,7 @@ public class SubsysTableController {
      */
     @GetMapping("/list")
     public Result listAllSubsys(@RequestParam Map<String, Object> map) {
-        logger.info("子系统查询："+map.toString());
+        logger.info("子系统查询：{}",map);
         HashMap<String, Object> stringObjectHashMap = new HashMap<>();
         List<SubSystemDTO> subSystemDTOS = subSystemService.listSubsysByMap(map);
         List<SubSystemVO> subSystemVOS = new ArrayList<>();
@@ -53,11 +53,11 @@ public class SubsysTableController {
     @PostMapping("/create")
     public Result createNewSubsys(@RequestBody Map<String, Object> map) {
         String subsysName = (String) map.get("subsys_name");
-        Boolean exists = subSystemService.hasThisSubsys(subsysName);
+        boolean exists = subSystemService.hasThisSubsys(subsysName);
         if (exists) {
             return Result.fail().message("子系统已存在");
         }
-        Boolean success = subSystemService.saveSubsys(map);
+        boolean success = subSystemService.saveSubsys(map);
         if (success) {
             return Result.ok().message("创建子系统成功");
         } else {
@@ -73,8 +73,8 @@ public class SubsysTableController {
      */
     @PostMapping("/update")
     public Result updateSubsys(@RequestBody Map<String, Object> map) {
-        logger.info("子系统修改：" + map.toString());
-        Boolean success = subSystemService.updateSubsys(map);
+        logger.info("子系统修改：{}",map);
+        boolean success = subSystemService.updateSubsys(map);
         if (success) {
             return Result.ok().message("子系统信息修改成功");
         } else {
@@ -89,8 +89,8 @@ public class SubsysTableController {
      */
     @PostMapping("/delete")
     public Result deleteSubsys(@RequestBody Map<String, Object> map) {
-        logger.info("子系统删除：" + map.toString());
-        Boolean success = subSystemService.removeById(Long.valueOf((String) map.get("id")));
+        logger.info("子系统删除：{}",map);
+        boolean success = subSystemService.removeById(Long.valueOf((String) map.get("id")));
         if (success) {
             return Result.ok().message("子系统信息删除成功");
         } else {

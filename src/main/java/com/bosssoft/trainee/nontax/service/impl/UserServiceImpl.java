@@ -4,14 +4,12 @@ import cn.hutool.core.bean.BeanUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.bosssoft.trainee.nontax.entity.dto.ResourceDTO;
 import com.bosssoft.trainee.nontax.entity.dto.UserDTO;
-import com.bosssoft.trainee.nontax.entity.po.Resource;
 import com.bosssoft.trainee.nontax.entity.po.Role;
 import com.bosssoft.trainee.nontax.entity.po.User;
-import com.bosssoft.trainee.nontax.service.UserService;
 import com.bosssoft.trainee.nontax.mapper.UserMapper;
-import com.bosssoft.trainee.nontax.util.Login.LoginForm;
+import com.bosssoft.trainee.nontax.service.UserService;
+import com.bosssoft.trainee.nontax.util.login.LoginForm;
 import com.bosssoft.trainee.nontax.util.SortHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -33,8 +31,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
 
     @Override
     public UserDTO login(LoginForm loginForm) {
-        UserDTO login = userMapper.login(loginForm.getUsername(), loginForm.getPassword());
-        return login;
+        return userMapper.login(loginForm.getUsername(), loginForm.getPassword());
     }
 
     @Override
@@ -53,7 +50,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
         String sort = (String) map.get("sort");
         String userName = (String) map.get("user_name");
         String phoneNumber = (String) map.get("phone_number");
-        String role = (String) map.get("role");
         // 创建page对象、wrapper对象用于查询
         Page page = new Page(pageNo, pageSize);
         page.setOrders(SortHelper.getOrderItem(sort));
